@@ -1,0 +1,14 @@
+# docker files
+docker-compose.yml
+docker-compose.yaml
+Dockerfile
+*.Dockerfile
+.dockerignore
+
+# common files
+/.git/
+/*.md
+/.vscode/
+
+# ubuntu build file
+/ubuntu/
