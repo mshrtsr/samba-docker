@@ -35,3 +35,9 @@ RUN make
 
 # Install samba
 RUN make install
+
+# Copy sample smb.conf
+RUN cp examples/smb.conf.default /etc/samba/smb.conf
+
+# Execute samba
+CMD ["smbd", "-i"]
