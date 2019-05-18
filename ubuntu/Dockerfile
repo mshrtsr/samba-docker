@@ -14,7 +14,7 @@ RUN set -x \
     python-all-dev python-crypto python-dbg python-dev python-dnspython \
     python3-dnspython python-gpgme python3-gpgme python-markdown python3-markdown \
     python3-dev xsltproc zlib1g-dev liblmdb-dev lmdb-utils \
-    wget \
+    wget ca-certificates\
    --no-install-recommends \
     && apt-get -yqq autoremove \
     && apt-get -yqq clean \
